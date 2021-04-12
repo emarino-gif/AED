@@ -39,11 +39,15 @@ personal.
 8. Indicar en readme.md el compilador seleccionado.  
 9. Probar el compilador con un programa hello.cpp que envíe a cout la línea
 Hello, World! o similar.  
-10.Ejecutar el programa, y capturar su salida en un archivo output.txt .  
-11.Publicar en el repositorio personal AED la carpeta 00-CppHelloWorld con
+10. Ejecutar el programa, y capturar su salida en un archivo output.txt .  
+11. Publicar en el repositorio personal AED la carpeta 00-CppHelloWorld con
 readme.md, hello.cpp, y output.txt .  
-12.La última tarea es informar por email a UTNFRBAAED@yahoogroups.com1
+12. La última tarea es informar por email a UTNFRBAAED@yahoogroups.com1
 el usuario GitHub.  
 
 ---
 ### Hipótesis de trabajo que surgen luego de leer el enunciado.
+
+
+COMPILADOR UTILIZADO: Microsoft Visual Studio Community 2019
+
