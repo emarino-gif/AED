@@ -4,29 +4,29 @@ using namespace std;
 
 int main ()
 {
-							//TIPO		TAMA袿	RANGO			COMENTARIO
-	bool val = true;		//bool		1 byte	0-1				Representa valores que pueden ser true o false.
-	char letra = 'A';		//char		1 byte	0-255			Se utiliza en los caracteres ASCII de cadenas de estilo C antiguas u objetos std::string que nunca tendr醤 que convertirse a UNICODE.
-	int x, y, z;			//int		4 bytes	0 a 4294967295	Opci髇 predeterminada para los valores enteros.
-	float d1 = 3.14, d3;	//float		4 bytes					Para valores tipo n鷐eros no enteros, o con decimales
-	double d2 = 11.3;		//double							Para valores decimales, exactitud de 15	d韌itos despu閟 del punto decimal.
+					//TIPO		TAMA脩O	RANGO		COMENTARIO
+	bool val = true;		//bool		1 byte	0-1		Representa valores que pueden ser true o false.
+	char letra = 'A';		//char		1 byte	0-255		Se utiliza en los caracteres ASCII de cadenas de estilo C antiguas u objetos std::string que nunca tendr谩n que convertirse a UNICODE.
+	int x, y, z;			//int		4 bytes	0 a 4294967295	Opci贸n predeterminada para los valores enteros.
+	float d1 = 3.14, d3;		//float		4 bytes			Para valores tipo n煤meros no enteros, o con decimales
+	double d2 = 11.3;		//double				Para valores decimales, exactitud de 15	d铆gitos despu茅s del punto decimal.
 	unsigned int a;			//a puede tomar valores entre 0 a 4,294,967,295
 	
 	string stra = ("aaa");	//string
 	string strb; strb = "bbb";
 
-							//assert + operadores
-	assert(val == true);	//==	igualdad
-	assert(letra != 'B');	//!=	desigualdad
-	x = 8;					//=		asignaci髇
+					//assert + operadores
+	assert(val == true);		//==	igualdad
+	assert(letra != 'B');		//!=	desigualdad
+	x = 8;				//=		asignaci贸n
 	y = 2;
-	z = x + y;				//+		suma unaria
+	z = x + y;			//+		suma unaria
 	assert(z == 10);
-	z = x / y;				///		divisi髇
+	z = x / y;			///		divisi贸n
 	assert(z == 4);
-	z += x;					//+=	asignaci髇 y suma
+	z += x;				//+=	asignaci贸n y suma
 	assert(z == 12);
-	z -= y;					//-=	asignaci髇 y resta
+	z -= y;				//-=	asignaci贸n y resta
 	assert(z == 10);
 	a = y - x;
 	assert(a >= 0);			//>=	mayor o igual
